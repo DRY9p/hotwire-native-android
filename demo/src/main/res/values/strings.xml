@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hotwire Native</string>
+    <string name="app_name">Hotwire Native Test App</string>
     <string name="error_web_home">Error loading page</string>
     <string name="error_web_home_description">The demo server may be starting up. Pull-to-refresh to try again in a minute.</string>
     <string name="menu_progress">Loading…</string>
