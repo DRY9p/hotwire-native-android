@@ -46,6 +46,7 @@ private val bugsAndFixes = HotwireBottomTab(
     )
 )
 
+
 val mainTabs = listOf(
     navigation,
     bridgeComponents,

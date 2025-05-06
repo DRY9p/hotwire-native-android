@@ -295,7 +295,7 @@ class Navigator(
     private fun dismissModalContextWithResult(rule: NavigatorRule) {
         logEvent(
             "dismissModalContextWithResult",
-            "location" to rule.newLocation,
+             "location" to rule.newLocation,
             "uri" to rule.newDestinationUri,
             "presentation" to rule.newPresentation
         )
