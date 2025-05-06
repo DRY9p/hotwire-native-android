@@ -7,6 +7,7 @@ import dev.hotwire.core.bridge.KotlinXJsonConverter
 import dev.hotwire.core.config.Hotwire
 import dev.hotwire.core.turbo.config.PathConfiguration
 import dev.hotwire.demo.bridge.FormComponent
+import dev.hotwire.demo.bridge.AlertComponent
 import dev.hotwire.demo.bridge.MenuComponent
 import dev.hotwire.demo.bridge.OverflowMenuComponent
 import dev.hotwire.demo.features.imageviewer.ImageViewerFragment
@@ -46,6 +47,7 @@ class DemoApplication : Application() {
 
         // Register bridge components
         Hotwire.registerBridgeComponents(
+            BridgeComponentFactory("alert", ::AlertComponent),
             BridgeComponentFactory("form", ::FormComponent),
             BridgeComponentFactory("menu", ::MenuComponent),
             BridgeComponentFactory("overflow-menu", ::OverflowMenuComponent)
